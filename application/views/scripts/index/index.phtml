@@ -1,0 +1,13 @@
+<?php echo $this->render('header.phtml'); ?>
+<div id="main">
+	<?php if($this->user->id != ""){?>
+		<form action="<?php echo $this->baseUrl;?>/status/update" method="POST">
+			<textarea name="status"></textarea>
+			<input type="submit" value="Submit"/>
+		</form>
+	<?php }else{ ?>
+		<p>You are not log in, click in the blue button</p>
+	<?php } ?>
+</div>
+<?php echo $this->render('menu.phtml'); ?>
+<?php echo $this->render('footer.phtml'); ?>

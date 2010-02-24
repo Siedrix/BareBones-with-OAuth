@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:0;
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+#header{
+	float:left;
+	width:960px;
+}
+#main{
+	float:left;
+	width:660px;
+}
+#sidebar{
+	float:left;
+	width:300px;
+}
+#footer{
+	float:left;
+	width:960px;
+}

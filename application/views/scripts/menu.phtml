@@ -1,0 +1,9 @@
+	<div id="sidebar">
+		<?php if($this->user->id == ""){?>
+			<a href="<?php echo $this->baseUrl;?>/oauth/redirect"><img src="<?php echo $this->baseUrl;?>/public/images/lighter.png" alt="Sign in with Twitter"/></a>
+		<?php } ?>
+		<?php if($this->user->id != ""){?>
+			<h4>Welcome <?php echo $this->content->name; ?></h4>
+			<a class="home_tab_dark" href="<?php echo $this->baseUrl;?>/oauth/log-out">Logout</a>
+		<?php } ?>
+	</div>
