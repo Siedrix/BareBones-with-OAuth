@@ -1,0 +1,5 @@
+This implementation of Zend comes with OAuth log in and all the API functions that authentication is required.
+
+Develope by @siedrix, extening the OAuth library from @abraham.
+
+You need to configure the Application information in init.php and database info in config.ini in the applications Folder.
